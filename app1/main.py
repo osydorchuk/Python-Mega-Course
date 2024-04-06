@@ -13,5 +13,7 @@ while True:
                 print(items)
         case 'exit':
             break
+        case _:
+            print("Hey, you entered an unknown command")
 
 print("Buy!")
