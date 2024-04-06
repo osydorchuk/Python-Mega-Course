@@ -9,11 +9,12 @@ while True:
             todo = input("Enter to do: ")
             todos.append(todo.capitalize())
         case 'show' | 'display':
-            for items in todos:
-                print(items)
+            for item in todos:
+                item = item.title()
+                print(item)
         case 'exit':
             break
         case _:
             print("Hey, you entered an unknown command")
 
-print("Buy!")
+print("Bye!")
