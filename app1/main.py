@@ -12,7 +12,8 @@ while True:
             for index, item in enumerate(todos):
                 row = f"{index + 1}-{item}"
                 print(row)
-            print(f"Length is {index +1 }")
+#            print(f"Length is {index +1 }")
+#            print(len(todos))
         case 'edit':
             number = int(input("number of the todo to edit: "))
             number = number - 1
