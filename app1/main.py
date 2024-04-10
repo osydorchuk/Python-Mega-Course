@@ -20,18 +20,9 @@ while True:
             todos = file.readlines()
             file.close()
 
-#            new_todos = []
-#            for item in todos:
-#                new_item = item.strip('\n')
-#                new_todos.append(new_item)
-#            new_todos = [item.strip('\n') for item in todo]
-
             for index, item in enumerate(todos):
-#                item = item.strip('\n')
                 row = f"{index + 1}-{item.strip('\n')}"
                 print(row)
-#            print(f"Length is {index +1 }")
-#            print(len(todos))
         case 'edit':
             number = int(input("number of the todo to edit: "))
             number = number - 1
