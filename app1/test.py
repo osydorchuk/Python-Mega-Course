@@ -4,6 +4,7 @@ def greet(message):
     return new_message
 
 
-greeting = greet("Hi")
+user_entry = input("Enter greeting")
+greeting = greet(user_entry)
 
-print(len(greeting))
+print(greeting)
